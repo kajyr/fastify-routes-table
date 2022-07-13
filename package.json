@@ -1,25 +1,27 @@
 {
-  "name": "fastify-routes-table",
-  "version": "0.1.0",
-  "description": "A quick, debug-ish printout of the routes defined in your fastify.",
-  "main": "index.js",
-  "scripts": {},
+  "author": "Carlo 'kajyr' <carlo.panzi@gmail.com> (http://kajyr.github.io/)",
+  "bugs": {
+    "url": "https://github.com/kajyr/fastify-routes-table/issues"
+  },
   "dependencies": {
     "colors": "^1.4.0",
-    "fastify-plugin": "^3.0.0"
+    "fastify-plugin": "^4.0.0"
   },
-  "devDependencies": {},
+  "description": "A quick, debug-ish printout of the routes defined in your fastify.",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.0.0",
+    "release-it": "^15.1.1"
+  },
+  "keywords": ["fastify", "routes"],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fastify-routes-table",
   "repository": {
     "type": "git",
     "url": "git@github.com:kajyr/fastify-routes-table.git"
   },
-  "author": "Carlo 'kajyr' <carlo.panzi@gmail.com> (http://kajyr.github.io/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kajyr/fastify-routes-table/issues"
+  "scripts": {
+    "release": "release-it"
   },
-  "keywords": [
-    "fastify",
-    "routes"
-  ]
+  "version": "0.1.0"
 }
