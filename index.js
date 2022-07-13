@@ -35,6 +35,6 @@ function routesTablePlugin(instance, options, done) {
 }
 
 module.exports = fp(routesTablePlugin, {
-  fastify: '3.x',
+  fastify: '>=3.x',
   name: 'fastify-routes-table',
 });
