@@ -12,7 +12,10 @@
     "@release-it/conventional-changelog": "^5.0.0",
     "release-it": "^15.1.1"
   },
-  "keywords": ["fastify", "routes"],
+  "keywords": [
+    "fastify",
+    "routes"
+  ],
   "license": "MIT",
   "main": "index.js",
   "name": "fastify-routes-table",
@@ -23,5 +26,5 @@
   "scripts": {
     "release": "release-it"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
